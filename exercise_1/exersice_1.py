@@ -1,0 +1,16 @@
+import gym
+import time
+env = gym.make('CartPole-v0')
+print(env.action_space)
+print(env.observation_space)
+print(env.observation_space.high)
+print(env.observation_space.low)
+# env = gym.make('Pendulum-v0')
+# print(env.action_space)
+# print(env.observation_space)
+# print(env.observation_space.high)
+# print(env.observation_space.low)
+# print(env.reset())
+# env.render()
+# time.sleep(3)
+# env.close()
