@@ -36,7 +36,7 @@ But at first evolving a have problem when launched evolved robot by comand:
 ``` 
 python3 ../../bin/es.py -f balance.ini -t bestg(NUMBER).npy
 ```
-witch gives mistake like "pybullet.error: Joint index out-of-range."
+which gives mistake like "pybullet.error: Joint index out-of-range."
 
 But I could escape mistake by changing line in ```balancebot_env.py``` file:
 
@@ -51,10 +51,10 @@ def render(self, mode='human', close=False):
 
 Files with result in folder /exercise 5/balancebot_result 
 
-#Exersise 6
+## Exersise 6
 In this exersice I did 1-10 replications of the experiment with the LSTM architecture by using different seeds (1-10). Also I did 2 replications by using a feed-forward neural architecture with seed(11-12).
 
-I noticed 4 different behaviors of the robot:
+So I noticed 4 different behaviors of the robot:
 * 1) for seeds: 1, 2, 4, 8, 10 robot moves clockwise and achieve target with fluctuation near of traget.
 * 2) for seeds: 5, 7, 9 robot moves counterclockwise and achieve target with fluctuation near of traget.
 * 3) for seed: 2 robot moves counterclockwise and achieve target with movement around target cylinder in the same direction.
