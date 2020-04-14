@@ -51,8 +51,8 @@ def render(self, mode='human', close=False):
 
 Files with result in folder /exercise 5/balancebot_result 
 
-## Exersise 6
-In this exersice I did 1-10 replications of the experiment with the LSTM architecture by using different seeds (1-10). Also I did 2 replications by using a feed-forward neural architecture with seed(11-12).
+## Exercise 6
+In this exercise I did 1-10 replications of the experiment with the LSTM architecture by using different seeds (1-10). Also I did 2 replications by using a feed-forward neural architecture with seed(11-12).
 
 So I noticed 4 different behaviors of the robot:
 * 1) for seeds: 1, 2, 4, 8, 10 robot moves clockwise and achieve target with fluctuation near of traget.
